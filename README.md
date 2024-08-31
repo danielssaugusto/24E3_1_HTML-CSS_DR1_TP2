@@ -19,7 +19,12 @@ Acesse a IDE VS Code em sua máquina e no campo de extensões `(Crtl + Shift + X
 
 ![Live Server](assets/live-server.png)
 
+Após instalado, clique com o botão direito dentro do arquivo HTML e então selecione a opção "Abrir com Live Server".
+Isso permitirá acessar um servidor local em uma nova aba do seu navegador padrão.
+
 ## 🗃️ Documentação
  - [Documentação Git](https://docs.github.com/en/get-started/using-git/about-git)
  - [Documentação GitHub](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git)
  - [Documentação Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+
+ ![GitHub Docs](assets/github-docs.png)
