@@ -1,4 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=VT323&display=swap');
+
 html {
-    height: 100%;
-    width: 100%;
-  }
+  height: 100%;
+  width: 100%;
+}
+
+.paragraph-container {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#first {
+  background-color: #024059;
+  padding: 2rem;
+  border-radius: 1rem;
+  font-family: "Macondo", cursive;
+  font-size: 2rem;
+}
+
+#second {
+  background-color: #026873;
+  padding: 1rem;
+  border: 0.5rem solid #04bf8a;
+  border-radius: 0 1rem;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#third {
+  background-color: #04bf8a;
+  color: #024059;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  text-decoration: underline;
+  padding: 1rem 0 3rem 0;
+}
+
+#fourth {
+  background-color: #025940;
+  padding: 2rem 0.5rem 0.5rem 0;
+  font-family: "VT323", monospace;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: end;
+  font-style: italic;
+  border: 3px dotted greenyellow;
+  
+}
