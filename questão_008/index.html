@@ -8,9 +8,52 @@
 </head>
 
 <body>
-    <a href="../menu.html">&lt;&lt; Voltar </a>
-    <br>
-    Questão 8
+    <section class="menu-projeto">
+        <a href="../menu.html">&lt;&lt; Voltar </a>
+        <br>
+        Questão 8
+    </section>
+    
+    <section class="header-container">
+        <header class="logo-container">
+            <a href="index.html"><img src="assets/stray-blacklogo.png" alt="Stray Logo"></a>
+        </header>
+        <!-- Home, Lojas, Cardápio, Promoções e Contato -->
+         <nav class="nav-container">
+            <a href="index.html"><img src="assets/home_24dp.png" alt="Home">Home</img></a>
+            <a href="#"><img src="assets/explore_nearby_24dp.png" alt="Lojas">Lojas</img></a>
+            <a href="#"><img src="assets/lists_24dp.png" alt="Cardápio">Cardápio</img></a>
+            <a href="#"><img src="assets/star_24dp.png" alt="Promoções">Promoções</img></a>
+            <a href="#"><img src="assets/contacts_product_24dp.png" alt="Contatos">Contato</img></a>
+         </nav>
+    </section>
+
+    <main class="main-container">
+        <section class="videos horizontal">
+            <!-- Vídeo do YouTube -->
+            <div class="display-conteudo">
+                <h2>Vídeo incorporado do YouTube</h2>
+                <iframe class="video-player" src="https://www.youtube.com/embed/u84hRUQlaio?si=M5r7kCss6Q0H1ECh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            
+            <!-- Vídeo da estrutura raiz de arquivos (Pasta: assets) -->
+            <div class="display-conteudo">
+                <h2>Vídeo disponível na estrutura raiz de arquivos</h2>
+                <video class="video-player" controls loop>
+                    <source src="assets/3040808-uhd_3840_2160_30fps.mp4" type="video/mp4">
+                    Seu navegador não suporta a tag de vídeo
+                </video>
+            </div>
+        </section>
+
+        <!-- Link direto da web (Disponível na Steam) -->
+        <section class="videos vertical">
+            <div class="display-conteudo">
+                <h2>Link direto da web: conteúdo disponível na Steam</h2>
+                <iframe aria-colspan="video-player" class="video-player" src="https://video.akamai.steamstatic.com/store_trailers/256844882/movie480_vp9.webm?t=1627683959" frameborder="0"></iframe>
+            </div>
+        </section>
+    </main>
     
 </body>
 </html>
