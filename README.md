@@ -3,7 +3,9 @@
 Repositório para armazenar os projetos desenvolvidos com base nas instruções dadas pelas questões disponibilizadas no moodle.
 
 ## 🎟️ Como acessar...
-### Através do [Git Bash Here](https://git-scm.com/)
+<!-- O atributo target="_blank" pode não ser suportado pelo GitHub  -->
+### Através do <a href="https://git-scm.com/" target="_blank">Git Bash Here</a>
+
  - Crie um diretório temporário onde será clonado o repositório e em seguida acesse esse novo diretório
  ```bash
  mkdir nome-da-pasta
