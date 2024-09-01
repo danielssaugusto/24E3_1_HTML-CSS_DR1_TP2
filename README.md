@@ -15,6 +15,9 @@ Repositório para armazenar os projetos desenvolvidos com base nas instruções 
  ```bash
  git clone https://github.com/danielssaugusto/24E3_1_HTML-CSS_DR1_TP2.git daniel_augusto_DR1_TP2
 ```
+Com o projeto clonado, agora é possível acessar o diretório dele pela IDE da Microsoft VS Code.
+<p>Siga os passos a seguir para navegar entre as questões na Web!<p>
+
 ## Visualização na WEB
 
 Acesse a IDE VS Code em sua máquina e no campo de extensões `(Crtl + Shift + X)`, procure por "Live Server" publicado por Ritwick Dey.
@@ -31,5 +34,15 @@ O arquivo nomeado como `menu.html` contém uma página Web que permite navegar e
  - [Documentação Git](https://docs.github.com/en/get-started/using-git/about-git)
  - [Documentação GitHub](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git)
  - [Documentação Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+
+## 🎞️ Vídeos educacionais
+YouTube - Rafaella Ballerini:
+ - [Como usar o VS CODE](https://youtu.be/pkH6XxH57O8?feature=shared)
+ - [O que é Git e GitHub? - parte 1/2](https://youtu.be/DqTITcMq68k?feature=shared)
+ - [Como usar Git e GitHub?- parte 2/2](https://youtu.be/UBAX-13g8OM?feature=shared)
+
+YouTube - Fabio Akita (Um pouco mais avançado 😅):
+ - [Entendendo GIT](https://youtu.be/6Czd1Yetaac?feature=shared)
+ - [Usando Git Direito | Limpando seus Commits!](https://youtu.be/6OokP-NE49k?feature=shared)
 
  ![GitHub Docs](assets/github-docs.png)
