@@ -4,6 +4,7 @@ Repositório para armazenar os projetos desenvolvidos com base nas instruções 
 
 ## 🎟️ Como acessar...
 ### Através do <a href="https://git-scm.com/" target="_blank">Git Bash Here</a>
+
  - Crie um diretório temporário onde será clonado o repositório e em seguida acesse esse novo diretório
  ```bash
  mkdir nome-da-pasta
