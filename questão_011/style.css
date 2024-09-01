@@ -1,4 +1,122 @@
-html {
-    height: 100%;
-    width: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+PT:wght@100..400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.container {
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-publicacao {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  box-shadow: 1px 1px 5px rgba(130, 130, 130, 0.5);
+}
+
+.title {
+  background-color: rgb(247, 247, 247);
+  padding: 0.5rem 0;
+  font-family: "Playwrite PT", cursive;
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  text-align: center;
+  box-shadow: 0px 1px 5px rgba(193, 193, 193, 0.5);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2),
+  0 0 5px rgba(38, 38, 38, 0.2);
+}
+
+.perfil-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  margin: 0.5rem;
+}
+
+.perfil-container img {
+  width: 2rem;
+  border-radius: 25rem;
+  cursor: pointer;
+}
+
+.perfil-nome {
+  font-size: 1rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgba(38, 38, 38, 1);
+  cursor: pointer;
+}
+
+.publicacao-imagem-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  max-width: 380px;
+}
+
+.publicacao-imagem {
+  width: 100%;
+  height: 100%;
+  max-height: 350px;
+  object-fit: cover;
+  transition: 0.25s;
+  box-shadow: 1px 1px 5px rgba(130, 130, 130, 0.5);
+  z-index: 1;
+  cursor: pointer;
+}
+
+.interacao {
+  display: flex;
+  flex-direction: column;
+}
+
+.interacao img {
+  width: 1.5rem;
+  margin: 0.5rem;
+}
+
+.interacao img:hover {
+  cursor: pointer;
+}
+
+.likes {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0.5rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2),
+  0 0 5px rgba(38, 38, 38, 0.2);
+}
+
+.comentario-link {
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 2rem 0;
+
+  span {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2),
+    0 0 5px rgba(38, 38, 38, 0.2);
+    cursor: pointer;
   }
+
+  p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+  }
+}
