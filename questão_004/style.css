@@ -1,4 +1,35 @@
 html {
-    height: 100%;
-    width: 100%;
-  }
+  height: 100%;
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'Lancelot';
+  src: url(fonts/Lancelot/Lancelot-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Parisienne';
+  src: url(fonts/Parisienne/Parisienne-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+
+.fonte-um {
+  font-family: 'Lancelot';
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.fonte-dois {
+  font-family: 'Parisienne';
+  font-size: 1.5rem;
+}
+
+.fonte-tres {
+  font-family: 'Roboto';
+  font-size: 1.5rem;
+}
