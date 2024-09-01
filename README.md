@@ -1,6 +1,6 @@
 # DR1 TP2 | Programação Web com HTML 5 e CSS 3 [24E3_1]
 
-Repositório para armazenar os projetos desenvolvidos com base nas instruções dadas pelas questões disponibilizadas através do moodle.
+Repositório para armazenar os projetos desenvolvidos com base nas instruções dadas pelas questões disponibilizadas no moodle.
 
 ## 🎟️ Como acessar...
 ### Através do [Git Bash Here](https://git-scm.com/)
