@@ -1,4 +1,50 @@
 html {
-    height: 100%;
-    width: 100%;
-  }
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+/* Estilo do seletor de tipo */
+p {
+  color: rgb(65, 142, 80);
+  font-size: 1.5rem;/* 24px === 1.5rem */
+}
+
+/* Estilo do seletor de classe */
+.exemplo-classe {
+  color: rgb(254, 173, 86);
+  background-color: rgb(0, 41, 200);
+  padding: 10px;
+}
+
+/* Estilo do seletor de ID */
+#exemplo-id {
+  color: red;
+  font-weight: bold;
+}
+
+/* Estilo do seletor de atributo */
+[type="text"] {
+  border: 2px solid orange;
+  padding: 5px;
+  width: 20rem;
+}
+
+/* Estilo do seletor descendente */
+div p {
+  color: rgb(107, 0, 128);
+  font-style: italic;
+}
+
+/* Estilo do seletor de pseudo-classe */
+a {
+  font-size: 1.5rem;
+}
+
+a:hover {
+  color: darkblue;
+  text-decoration: underline;
+}
