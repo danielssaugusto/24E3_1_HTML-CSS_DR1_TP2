@@ -41,4 +41,8 @@ YouTube - Rafaella Ballerini:
  - [O que é Git e GitHub? - parte 1/2](https://youtu.be/DqTITcMq68k?feature=shared)
  - [Como usar Git e GitHub?- parte 2/2](https://youtu.be/UBAX-13g8OM?feature=shared)
 
+YouTube - Fabio Akita (Um pouco mais avançado 😅):
+ - [Entendendo GIT](https://youtu.be/6Czd1Yetaac?feature=shared)
+ - [Usando Git Direito | Limpando seus Commits!](https://youtu.be/6OokP-NE49k?feature=shared)
+
  ![GitHub Docs](assets/github-docs.png)
