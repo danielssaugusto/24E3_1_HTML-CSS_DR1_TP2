@@ -15,6 +15,9 @@ Repositório para armazenar os projetos desenvolvidos com base nas instruções 
  ```bash
  git clone https://github.com/danielssaugusto/24E3_1_HTML-CSS_DR1_TP2.git daniel_augusto_DR1_TP2
 ```
+Com o projeto clonado, agora é possível acessar o diretório dele pela IDE da Microsoft VS Code.
+<p>Siga os passos a seguir para navegar entre as questões na Web!<p>
+
 ## Visualização na WEB
 
 Acesse a IDE VS Code em sua máquina e no campo de extensões `(Crtl + Shift + X)`, procure por "Live Server" publicado por Ritwick Dey.
