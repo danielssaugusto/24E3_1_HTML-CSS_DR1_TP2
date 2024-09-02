@@ -1,4 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
 html {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+.menu-navegacao {
+  position: absolute;
+  margin: 0 1rem;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(98, 0, 128);
+  margin-top: 1rem;
+}
+
+.nav-container ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  font-size: 1.5rem;
+  color: rgb(98, 0, 128);
+}
+
+.nav-container li {
+  margin: 2rem 0;
+}
+
+.nav-container a {
+  padding: 0.5rem 2rem;
+}
+
+.nav-container a:hover {
+  color: white;
+  border-radius: 25rem;
+  background-color: rgb(98, 0, 128);
+  transition: 0.60s ease;
+}
+
+#sobre-mim {
+  height: 100vh;
+  background-color: rgb(2, 38, 138);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20%;
+
+  h2 {
+    margin: 2rem 0;
+    font-size: 3rem;
   }
+
+  p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    padding: 1rem 2.5rem;
+  }
+
+  .botao {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .botao a {
+    color: azure;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid azure;
+    padding: 0.5rem;
+    border-radius: 25rem;
+  }
+
+  .botao a:hover {
+    background-color: #e0e0e0;
+    color: #0056b3;
+  }
+}
+
+#meus-hobbies {
+  height: 100vh;
+  background-color: blueviolet;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20%;
+
+  h2 {
+    margin: 2rem 0;
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    padding: 1rem 2.5rem;
+  }
+
+  .botao {
+    display: flex;
+    justify-content: flex-end;
+    margin: 5rem 0;
+  }
+  
+  .botao a {
+    color: azure;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid azure;
+    padding: 0.5rem;
+    border-radius: 25rem;
+  }
+
+  .botao a:hover {
+    background-color: #e0e0e0;
+    color: blueviolet;
+  }
+}
+
+#contato {
+  height: 100vh;
+  background-color: rgb(227, 239, 249);
+  color: rgb(129, 5, 160);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20%;
+
+  h2 {
+    margin: 2rem 0;
+    font-size: 3rem;
+  }
+
+  p {
+    border: 1px solid blueviolet;
+  }
+
+  ul {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    padding: 1rem 2.5rem;
+    line-height: 4rem;
+  }
+
+  .botao {
+    display: flex;
+    justify-content: flex-end;
+    margin: 2rem;
+  }
+  
+  .botao a {
+    color: blueviolet;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border: 3px solid blueviolet;
+    padding: 0.5rem;
+    border-radius: 25rem;
+  }
+
+  .botao a:hover {
+    background-color: blueviolet;
+    color: rgb(227, 239, 249);
+  }
+}
