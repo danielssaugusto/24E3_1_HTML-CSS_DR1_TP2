@@ -76,9 +76,15 @@ html {
   flex-direction: column;
   margin: auto;
 
+  hr {
+    background-color: rgb(40, 129, 254);
+    height: 2px;
+    border: none;
+  }
+
   .marcador {
-    color: orange;
-    border: 6px solid orange;
+    color: rgb(40, 129, 254);
+    border: 6px solid rgb(40, 129, 254);
     width: 1px;
     border-radius: 25px;
     margin: -0.4rem 4rem;
