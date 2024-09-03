@@ -11,13 +11,16 @@ html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.menu-navegacao {
+  position: absolute;
+}
+
 .container {
   width: 100%;
   max-width: 576px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  border: 1px solid blue;
   background-color: rgb(42, 30, 30);
   margin: auto;
 }
@@ -53,6 +56,7 @@ html {
   width: 60px;
   position: absolute;
   margin: -3rem 2.5rem;
+  cursor: pointer;
 }
 
 .menu {
@@ -79,22 +83,24 @@ html {
     border-radius: 25px;
     margin: -0.4rem 4rem;
     margin-bottom: 1px;
+    cursor: pointer;
   }
 }
 
 .icones {
   display: flex; 
   gap: 1.7rem;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   align-items: center;
   justify-content: center;
   padding-bottom: 1rem;
 
   img {
     width: 45px;
+    cursor: pointer;
   }
 
   .principal {
-    width: 65px;
+    width: 75px;
   }
 }
